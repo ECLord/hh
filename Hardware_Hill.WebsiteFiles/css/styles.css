@@ -1,0 +1,271 @@
+/* Title Section */
+#title {
+  background-color: #F8B400;
+  color: #fff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 10%;
+}
+
+.product-menu {
+  position: relative;
+  width: 5%;
+  left: 3%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.brand {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.nav-logo {
+  padding: 0 18px;
+  color: #fff;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Bestsellers */
+#bestseller {
+  padding: 7% 15%;
+  background-color: #FAF5E4;
+  position: relative;
+  text-align: center;
+}
+
+.bestseller-img {
+  width: 90%;
+  height: 55%;
+  margin: 20px;
+}
+
+.bestseller-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Shop By Brand */
+#brand {
+  padding: 7% 15%;
+  position: relative;
+  text-align: center;
+}
+
+.brand-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.brand-img {
+  width: 90%;
+  height: 55%;
+  margin: 20px;
+}
+
+/* Shop by Job  */
+#job {
+  padding: 7% 15%;
+  background-color: #FAF5E4;
+  position: relative;
+  text-align: center;
+}
+
+.job-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.job-img {
+  width: 90%;
+  height: 55%;
+  margin: 20px;
+}
+
+/* How to */
+#how_to {
+  text-align: center;
+  background-color: #FF6363;
+  color: #fff;
+}
+
+.how_to-image {
+  width: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 5%;
+}
+
+/* Call to Action */
+#cta {
+  padding: 7% 15%;
+  background-color: #FF6363;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: #125B50;
+  color: #FAF5E4;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #FAF5E4;
+}
+
+/* Signup Page */
+#signup {
+  padding: 7% 15%;
+  background-color: #FAF5E4;
+  position: relative;
+}
+
+.SU_Title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* Cart Page */
+#cart {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.cartheader {
+  background-color: #F8B400;
+  color: #fff;
+}
+
+.SC_Title {
+  margin-bottom: 30px;
+  margin-left: 95px;
+}
+
+/* About Page */
+#about {
+  padding: 7% 15%;
+  background-color: #FAF5E4;
+  position: relative;
+  text-align: center;
+}
+
+/* Contact Page */
+#contact-form {
+  padding: 7% 15%;
+  background-color: #FAF5E4;
+  position: relative;
+  text-align: center;
+}
+
+/* Product Page */
+#product-row {
+  padding: 100px;
+  text-align: center;
+}
+
+hr {
+  color: #125B50;
+  background-color: #fff;
+  border: dotted 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 10%;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 90%;
+    transform: rotate(0);
+    position: static;
+  }
+}
